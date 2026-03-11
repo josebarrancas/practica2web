@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+  <product>
+    <id>1</id>
+    <name>Audífonos Bluetooth</name>
+    <price>599</price>
+    <imageUrl>/audifonos.jpg</imageUrl>
+    <category>Audio</category>
+    <description>Audífonos inalámbricos para uso diario.</description>
+    <inStock>true</inStock>
+  </product>
+  <product>
+    <id>2</id>
+    <name>Teclado Mecánico</name>
+    <price>1250</price>
+    <imageUrl>/teclado.jpg</imageUrl>
+    <category>Periféricos</category>
+    <description>Teclado con switches rojos ideal para programar.</description>
+    <inStock>false</inStock>
+  </product>
+  <product>
+    <id>3</id>
+    <name>Raton Ergonomico</name>
+    <price>177</price>
+    <imageUrl>/mouse.jpg</imageUrl>
+    <category>Periféricos</category>
+    <description>Raton ergonomico perfecto para cuidar la mano</description>
+    <inStock>false</inStock>
+  </product>
+</products>
