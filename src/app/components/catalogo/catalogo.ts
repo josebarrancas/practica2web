@@ -1,14 +1,14 @@
 import { Component, computed, signal } from '@angular/core';
+import { RouterLink } from '@angular/router'; 
 import { Product } from '../../models/producto.model';
 import { ProductsService } from '../../services/producto.service';
 import { CarritoService } from '../../services/carrito.service';
 import { ProductCardComponent } from '../producto-card/producto-card';
-import { CarritoComponent } from '../carrito/carrito.component';
 
 @Component({
   selector: 'app-catalogo',
   standalone: true,
-  imports: [ProductCardComponent, CarritoComponent],
+  imports: [ProductCardComponent, RouterLink], 
   templateUrl: './catalogo.html',
   styleUrls: ['./catalogo.css'],
 })
@@ -30,4 +30,3 @@ export class CatalogoComponent {
     this.carritoService.agregar(producto);
   }
 }
-

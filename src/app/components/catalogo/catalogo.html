@@ -1,6 +1,8 @@
 <header class="header">
   <h1>Catálogo</h1>
   <p>Productos en stock: {{ inStockCount() }}</p>
+  
+  <button routerLink="/carrito">Ir al Carrito</button>
 </header>
 
 @if (products().length === 0) {
@@ -12,6 +14,3 @@
     }
   </section>
 }
-
-<hr class="sep" />
-<app-carrito></app-carrito>
