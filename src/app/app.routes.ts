@@ -1,8 +1,9 @@
 import { Routes } from '@angular/router';
-// Importamos 'Catalogo' en lugar de 'CatalogoComponent'
-import { CatalogoComponent } from './components/catalogo/catalogo'; 
+import { CatalogoComponent } from './components/catalogo/catalogo';
+import { CarritoComponent } from './components/carrito/carrito.component';
 
 export const routes: Routes = [
-  { path: '', component: CatalogoComponent }, // Lo usamos aquí también
-  { path: '**', redirectTo: '' }
+  { path: '', component: CatalogoComponent },
+  { path: 'carrito', component: CarritoComponent },
+  { path: '**', redirectTo: '' },
 ];
